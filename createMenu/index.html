@@ -38,21 +38,9 @@
 </span><span class=lnt>21
 </span><span class=lnt>22
 </span><span class=lnt>23
-</span><span class=lnt>24
-</span><span class=lnt>25
-</span><span class=lnt>26
-</span><span class=lnt>27
-</span><span class=lnt>28
-</span><span class=lnt>29
 </span></code></pre></td><td class=lntd><pre class=chroma><code class=language-bash data-lang=bash><span class=k>function</span> onOpen<span class=o>(</span> <span class=o>){</span>
-// This line calls the SpreadsheetApp and gets its UI   
-// Or DocumentApp or FormApp.
   var <span class=nv>ui</span> <span class=o>=</span> SpreadsheetApp.getUi<span class=o>()</span><span class=p>;</span>
- 
-//These lines create the menu items and 
-// tie them to functions we will write in Apps Script
-  
- ui.createMenu<span class=o>(</span><span class=s1>&#39;Học Excel Online&#39;</span><span class=o>)</span>
+    ui.createMenu<span class=o>(</span><span class=s1>&#39;Học Excel Online&#39;</span><span class=o>)</span>
       .addItem<span class=o>(</span><span class=s1>&#39;1. formulasToValuesActiveSheet&#39;</span>, <span class=s1>&#39;formulasToValuesActiveSheet&#39;</span><span class=o>)</span>
       .addItem<span class=o>(</span><span class=s1>&#39;2. formulasToValuesGlobal&#39;</span>, <span class=s1>&#39;formulasToValuesGlobal&#39;</span><span class=o>)</span>
       .addItem<span class=o>(</span><span class=s1>&#39;3. sortSheets&#39;</span>, <span class=s1>&#39;sortSheets&#39;</span><span class=o>)</span>
