@@ -25,7 +25,7 @@
 </code></pre><ul><li>Tắt</li></ul><pre><code>sudo spctl --master-disable
 </code></pre><h3 id=bật-tắt-sip-chạy-từ-recovery-mac>Bật-Tắt SIP (Chạy từ Recovery Mac)</h3><ul><li>Bật</li></ul><pre><code>csrutil clear hoặc csrutil enable
 </code></pre><ul><li>Tắt</li></ul><pre><code>csrutil disable
-</code></pre><h3 id=không-tắt-sip-gatekeeper>Không tắt SIP, GateKeeper</h3><pre><code>xattr -cr 
+</code></pre><h3 id=không-tắt-sip-gatekeeper>Không tắt SIP, GateKeeper</h3><pre><code>sudo xattr -cr 
 </code></pre><p>[Kéo file cần chạy vào và Enter, sau cr có khoảng trắng]</p><h3 id=bật-trim>Bật Trim</h3><p>Bật tuỳ chọn này với máy chạy SSD</p><pre><code>sudo trimforce enable
 </code></pre><h3 id=sửa-lỗi-index-spotlight>Sửa lỗi index Spotlight</h3><h4 id=cách-1-dùng-terminal>Cách 1: Dùng terminal</h4><ul><li>Bước 1:</li></ul><pre><code>sudo mdutil -i off /
 </code></pre><ul><li>Bước 2:</li></ul><pre><code>sudo mdutil -i on /
